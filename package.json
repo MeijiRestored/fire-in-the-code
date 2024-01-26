@@ -1,0 +1,83 @@
+{
+  "name": "fire-in-the-code",
+  "displayName": "Fire in the Code",
+  "description": "Shows Geometry Dash difficulty faces depending on the amount of errors in your code!",
+  "version": "1.0.0",
+  "publisher": "MeijiRestored",
+  "homepage": "https://github.com/MeijiRestored/fire-in-the-code",
+  "repository": "https://github.com/MeijiRestored/fire-in-the-code",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.61.0"
+  },
+  "categories": [
+    "Visualization"
+  ],
+  "icon": "assets/Normal.png",
+  "galleryBanner": {
+    "color": "#191919",
+    "theme": "dark"
+  },
+  "keywords": [
+    "geometry dash",
+    "visualization",
+    "fire in the hole",
+    "ouch",
+    "face",
+    "errors",
+    "error lens",
+    "error count"
+  ],
+  "__metadata": {
+    "publisherDisplayName": "MeijiRestored"
+  },
+  "activationEvents": [
+    "onCommand:fire-in-the-hole.openview.focus",
+    "onView:fire-in-the-hole.openview"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [{
+        "id": "custom-activitybar",
+        "title": "Fire in the Code",
+        "icon": "assets/logo_bito.svg"
+      }]
+    },
+    "views": {
+      "custom-activitybar": [{
+        "type": "webview",
+        "id": "fire-in-the-hole.openview",
+        "name": "Fire in the Code",
+        "contextualTitle": "Fire in the Code"
+      }]
+    },
+    "commands": [{
+      "command": "fire-in-the-hole.openview.focus",
+      "category": "Fire in the Code",
+      "title": "Open Sidebar",
+      "icon": "$(clear-all)"
+    }]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.1.4",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^14.18.21",
+    "@types/vscode": "^1.61.0",
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.1",
+    "@vscode/test-electron": "^1.6.2",
+    "eslint": "^7.32.0",
+    "glob": "^7.1.7",
+    "mocha": "^9.1.1",
+    "typescript": "^4.7.3"
+  }
+}
