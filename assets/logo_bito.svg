@@ -26,7 +26,7 @@
      inkscape:document-units="pt"
      inkscape:zoom="3.3433099"
      inkscape:cx="62.812006"
-     inkscape:cy="81.206951"
+     inkscape:cy="81.20695"
      inkscape:window-width="1600"
      inkscape:window-height="829"
      inkscape:window-x="-8"
@@ -34,31 +34,31 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="svg5" />
   <rect
-     style="fill:none;stroke:#000000;stroke-width:6.04229;stroke-dasharray:none;stroke-opacity:1"
+     style="fill:none;stroke:#000000;stroke-width:10;stroke-dasharray:none;stroke-opacity:1"
      id="rect5"
-     width="89.792038"
-     height="90.465027"
-     x="7.7090335"
-     y="6.8117185" />
+     width="107.3192"
+     height="105.52457"
+     x="8.2550917"
+     y="7.3577762" />
   <rect
-     style="fill:none;stroke:#000000;stroke-width:6;stroke-dasharray:none;stroke-opacity:1"
+     style="fill:none;stroke:#000000;stroke-width:9;stroke-dasharray:none;stroke-opacity:1"
      id="rect6"
-     width="17.273302"
-     height="17.273302"
-     x="26.246445"
-     y="22.881517" />
+     width="20.645002"
+     height="20.148756"
+     x="30.410954"
+     y="26.102684" />
   <rect
-     style="fill:none;stroke:#000000;stroke-width:6;stroke-dasharray:none;stroke-opacity:1"
+     style="fill:none;stroke:#000000;stroke-width:9;stroke-dasharray:none;stroke-opacity:1"
      id="rect6-9"
-     width="17.273302"
-     height="17.273302"
-     x="59.494473"
-     y="22.891787" />
+     width="20.645002"
+     height="20.148756"
+     x="70.148903"
+     y="26.114662" />
   <rect
-     style="fill:none;stroke:#000000;stroke-width:5.98325;stroke-dasharray:none;stroke-opacity:1"
+     style="fill:none;stroke:#000000;stroke-width:9;stroke-dasharray:none;stroke-opacity:1"
      id="rect7"
-     width="65.745033"
-     height="17.514381"
-     x="19.73254"
-     y="56.746761" />
+     width="78.578285"
+     height="20.429968"
+     x="22.625553"
+     y="65.605415" />
 </svg>
